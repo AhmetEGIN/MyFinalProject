@@ -1,4 +1,4 @@
-﻿using Entities.Abstract;
+﻿using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,8 +6,9 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Abstract
-{
+namespace Core.DataAccess
+{// classlarımızı ve interfacelerimizi belirli bir namespace e koyarız
+
     // Generic constraint : generic kısıt. Yanlış veri girilmesini önlemek amacıyla kullanılır
     // class : referans tip olabilir demek
     // Herhangi bir class yazılmasın sadece belirlediğimiz class lar yazılsın istiyorsak onu da belirtmeliyiz
